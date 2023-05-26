@@ -29,7 +29,7 @@ int main()
     } while (err >= 1e-6);
     x=x*10000;
     float c=int(x);
-    floatr=c/10000;
+    float r=c/10000;
     cout <<r;
     return 0;
 }
